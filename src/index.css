@@ -1,0 +1,60 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --bg-bento: #F8F9F4;
+    --text-primary: #1B2B1E;
+    --text-secondary: #4A554E;
+    --bento-border: #E0E4D9;
+    --bento-border-hover: #C5CDBC;
+    --bento-green-dark: #3A5A40;
+    --bento-green-hover: #2D4532;
+    --bento-green-light: #A3B18A;
+    --bento-green-subtle: #F0F2EA;
+  }
+
+  body {
+    font-family: 'Plus Jakarta Sans', 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    color: #2D332F;
+    background-color: #F8F9F4;
+  }
+
+  h1, h2, h3, .font-serif, .font-display {
+    font-family: 'Playfair Display', Georgia, serif;
+  }
+}
+
+/* Custom Bento Box helpers */
+.bento-card {
+  background-color: #ffffff;
+  border: 1px solid #E0E4D9;
+  border-radius: 1.25rem;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.04), 0 1px 2px -1px rgba(0, 0, 0, 0.04);
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.bento-card:hover {
+  border-color: #C5CDBC;
+  box-shadow: 0 4px 12px -2px rgba(58, 90, 64, 0.08);
+}
+
+.bento-card-green {
+  background-color: #3A5A40;
+  color: #ffffff;
+  border-radius: 1.25rem;
+  border: 1px solid #2D4532;
+}
+
+.bento-card-tint {
+  background-color: rgba(163, 177, 138, 0.12);
+  border: 1px solid rgba(163, 177, 138, 0.35);
+  border-radius: 1.25rem;
+}
+
+/* Smooth custom scrollbars and focus outlines */
+:focus-visible {
+  outline: 2px solid #3A5A40;
+  outline-offset: 2px;
+}
+
+

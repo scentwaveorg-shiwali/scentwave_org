@@ -1,0 +1,6 @@
+{
+  "name": "Scentwave Organization",
+  "description": "Official website for Scentwave Organization, empowering communities through awareness, health, environment, digital literacy, and women empowerment since November 2017.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
